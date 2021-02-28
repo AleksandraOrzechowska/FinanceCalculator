@@ -1,2 +1,2 @@
-# MyMoney
+# FinanceCalculator
  
