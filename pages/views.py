@@ -4,4 +4,5 @@ def home(request):
 	return render(request, "home.html", {})
 
 def about(request):
-	return render(request, "about.html", {})
+	from pages.description import description1
+	return render(request, "about.html", {"describing" : description1})
